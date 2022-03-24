@@ -1,0 +1,77 @@
+.userMainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vmax;
+  background: #ddd;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.userMainDiv > div {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: 2vmax;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+}
+.userMainDiv > div:first-child {
+  width: 20vmax;
+  padding: 1vmax;
+  justify-content: space-between;
+}
+.userMainDiv > div > div > img {
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.userMainDiv > div:first-child > div > p {
+  color: red;
+  font: 400 2vmax poppins;
+}
+.userMainDiv > div:last-child {
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1vmax;
+}
+.userMainDiv > div:first-child > div > p {
+  margin: 2vmax 0vmax;
+}
+.userMainDiv > div:first-child > div {
+  text-align: center;
+}
+.userMainDiv > div:first-child > button {
+  background: #ff2b7e;
+  border: none;
+  padding: 0.7vmax 2vmax;
+  font: 200 1.5vmax Roboto;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.userMainDiv > div:first-child > button:hover {
+  background: #a93461;
+}
+.userMainDiv > div:last-child > div:first-child > h1 {
+  border-bottom: 1px solid #333;
+  font: 400 3vmax Roboto;
+}
+.userMainDiv > div:last-child > div > h4 {
+  font: 400 2vmax "Roboto";
+  color: black;
+}
+
+.userMainDiv > div:last-child > div > p {
+  color: rgba(0, 0, 0, 0.418);
+  font: 400 1.3vmax cursive;
+  margin: 0.3vmax;
+}
+.userMainDiv > div:last-child > div:last-child {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.userMainDiv > div:last-child > div:last-child > div > a {
+  font: 400 1.5vmax Roboto;
+}

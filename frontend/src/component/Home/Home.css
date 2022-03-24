@@ -1,0 +1,22 @@
+.homePage {
+  height: 100vh;
+  width: 100vmax;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  */
+.homePage h1 {
+  margin: 5px;
+  font: 400 3vmax Roboto;
+}
+
+.homePage a {
+  border: 1px solid tomato;
+  padding: 5px;
+  margin: 10px;
+  font: 400 2vmax cursive;
+}

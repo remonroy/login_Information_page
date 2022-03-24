@@ -1,0 +1,79 @@
+.containerBox {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.registerBox {
+  width: 53vh;
+  height: 70vh;
+  padding: 10px;
+  background-color: white;
+}
+
+.registerBox h2 {
+  text-align: center;
+  margin: 10px;
+  font: 400 2.2vmax Roboto;
+  color: #333;
+}
+
+form.registerFrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75%;
+}
+
+form.registerFrom > div > input {
+  width: 100%;
+  padding: 1vmax 3vmax;
+  outline: none;
+  padding-right: 1vmax;
+}
+
+form.registerFrom > div > svg {
+  position: absolute;
+  color: #333;
+  font-size: 2vmax;
+  transform: translateX(0.4vmax);
+}
+
+form.registerFrom > div {
+  display: flex;
+  align-items: center;
+}
+div#registerImage > input::file-selector-button {
+  width: 100%;
+  cursor: pointer;
+  padding: 6px;
+  font: 300 1vmax Cursive;
+}
+
+div#registerImage > input {
+  display: flex;
+  padding: 0px;
+}
+input.signUpBtn {
+  border: none;
+  background-color: tomato;
+  width: 100%;
+  padding: 0.8vmax;
+  font: 300 1vmax "Roboto";
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+input.signUpBtn:hover {
+  background-color: rgba(179, 66, 46);
+}
+#registerImage > img {
+  width: 3vmax;
+  height: 3vmax;
+  border-radius: 100%;
+  margin: 2px;
+}

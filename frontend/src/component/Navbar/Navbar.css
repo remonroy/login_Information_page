@@ -1,0 +1,35 @@
+nav.navBar {
+  height: 9rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10rem 1fr 10rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+ul.navLink {
+}
+
+.navItem {
+  grid-column: 2/3;
+}
+
+ul.navLink {
+  display: flex;
+  height: 9rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.navLink > li {
+  margin: 0px 31px;
+}
+
+ul.navLink li:last-child {
+  margin: 0px;
+}
+
+ul.navLink li:first-child {
+  margin: 0px;
+}

@@ -1,0 +1,42 @@
+.allUserContainer {
+  width: 100vw;
+  background: #ddd;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 4vmax;
+  justify-content: center;
+  align-items: center;
+}
+.allUser {
+  width: 90%;
+  background: white;
+  height: 100%;
+  padding: 2vmax;
+}
+.allUser > h3 {
+  font: 400 1.5vmax "Roboto";
+  text-align: center;
+  margin: 2vmax auto;
+}
+table.allUsersTable {
+  width: 100%;
+  text-align: center;
+}
+thead > tr {
+  font: 400 1.3vmax "Roboto";
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr {
+  font: 300 1.1vmax Cursive;
+}
+span {
+  font: 0.7vmax "";
+}

@@ -1,0 +1,67 @@
+.loginContainerBox {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.loginBox {
+  width: 53vh;
+  height: 70vh;
+  padding: 10px;
+  background-color: white;
+}
+
+.loginBox h2 {
+  text-align: center;
+  margin: 10px;
+  font: 400 2.2vmax Roboto;
+  color: #333;
+}
+
+form.loginFrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75%;
+}
+
+form.loginFrom > div > input {
+  width: 100%;
+  padding: 1vmax 3vmax;
+  outline: none;
+  padding-right: 1vmax;
+}
+
+form.loginFrom > div > svg {
+  position: absolute;
+  color: #333;
+  font-size: 2vmax;
+  transform: translateX(0.4vmax);
+}
+
+form.loginFrom > div {
+  display: flex;
+  align-items: center;
+}
+
+input.loginBtn {
+  border: none;
+  background-color: tomato;
+  width: 100%;
+  padding: 0.8vmax;
+  font: 300 1vmax "Roboto";
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+input.loginBtn:hover {
+  background-color: rgba(179, 66, 46);
+}
+
+form.loginFrom > a {
+  text-align: right;
+}
